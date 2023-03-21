@@ -1,0 +1,75 @@
+
+@media only screen and (max-width:768px) {
+
+    .loginMini{
+      margin-left: 40px;
+    }
+    .formLogin{
+      padding: 130px 10px 20px 10px;
+    }
+    .formLogin input{
+      width: 200px;
+      height: 40px;
+    }
+    .formLogin .loginNe,.forgotPasswordText{
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    }
+    
+    .divTaitleInput2{
+  margin-top: -5px;
+    }
+.divTaitleInput3{
+margin-top: -25px;
+margin-left: 5px;
+}
+.divTaitleInput1{
+  margin-top: -15px;
+}
+.go{
+  font-size: 22px;
+}
+.themore{
+  font-size: 13px;
+}
+.readmoreLogin{
+  font-size: 12px;
+}
+
+
+  }
+
+@media only screen and (max-width:400px) {
+ 
+.loginMini{
+  flex-direction: column;
+  width: 100%;
+  background-color: rgb(196, 25, 25);
+   margin-left: 0px;
+   margin-top: 0px;
+}
+.divtaitleLogin{
+color: black;
+}
+.formLogin{
+  background: linear-gradient(180deg, #198bfd 0%, #02298A 84.79%, #021B79 100%);
+
+  width: 100%;
+  border-radius: 0px 0px 0px 0px ;
+  height: 600px;
+  padding-left:80px ;
+}
+
+.readmoreLogin{
+  display: none;
+}
+.go{
+  display: none;
+}
+.error ,.errors{
+font-size: 14px;
+margin-left: -10px;
+}
+
+}
