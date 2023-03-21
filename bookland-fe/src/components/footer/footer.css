@@ -1,0 +1,90 @@
+
+.footer-top{
+    background-color: #3B2F4A;
+    display: flex;
+    height: 275px;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-top-title{
+    width: 400px;
+}
+.footer-top span{
+    color: white;
+    font-size: 32px;
+}
+.footer-top input{
+    padding: 13px 20px;
+    border: 1px solid white;
+    color: white;
+    background: none; border-radius: 5px;
+    width: 370px;
+}
+.footer-top button{
+    font-size: small;
+    position: relative;
+    right: 20px;
+}
+.footer-midle{
+    margin: 35px 0;
+}
+.footer-midle h4{
+    margin-bottom: 20px;
+    border-top: 1px solid rgb(224, 224, 224);padding: 30px 0;
+   
+}
+
+.foter-flex-1{
+    display: flex;
+    justify-content: space-between;
+}
+.foter-flex-1 li{
+    font-size: 12px;
+    line-height: 35px;
+    color: rgb(81, 81, 81);
+}
+
+.footer-bottom{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 50% 20% 25%;
+}
+.footer-bottom i{
+    color: #EAA451;
+    margin: 25px 10px 0px 0;
+}
+.footer-bottom .ft-btm-lg-detail p{
+    font-size: 13px;
+    line-height: 20px;
+    color: rgb(81, 81, 81);
+    margin: 20px 0;
+}
+
+.ft-btm-img{
+    width: 300px;
+    height: 118px;
+    margin-top: 40px ;
+}
+ @media screen and (max-width:1200px) {
+    .footer-top input {
+        width: 300px;
+    }
+    .footer-top .btn-yellow{
+        padding: 15px 24px;
+    }
+    .footer-top span {
+        font-size: 29px;
+    }
+    .ft-btm-img {display: none;}
+ } @media screen and (max-width:900px) {
+    .footer-top input {
+        width: 150px;
+    }
+    .footer-top .btn-yellow{
+        padding: 15px 15px;
+    }
+    .ft-btm-img {display: none;}
+    .footer-top span {
+        font-size: 22px;
+    }
+ }

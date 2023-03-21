@@ -1,0 +1,38 @@
+*{
+  margin: 0 ;;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+* button:hover{
+  cursor: pointer;
+}
+img{
+  width: 100%;
+  height: 100%;
+}
+.wrapper-padding{
+  padding: 0px 115px;
+}
+.custom-btn-main{
+  padding: 15px 45px;
+  border: none;
+  border-radius: 5px ;font-size: 15px;
+}
+.btn-yellow{
+  background-color:   #EAA451;
+  color: white;
+}
+
+@media screen and (max-width: 1135px){
+  .wrapper-padding{
+    padding: 0px 75px;
+  }
+}
+
+@media screen and (max-width: 992px){
+  .wrapper-padding{
+    padding: 0px 35px;
+  }
+}
