@@ -1,0 +1,78 @@
+.flash-sale-container{
+    margin: 60px 0;
+}
+
+
+.countdown-component{
+    padding: 10px 30px;
+    margin: 0 auto;
+    border: 1px solid rgb(228, 228, 228);
+    border-radius: 5px;
+    width: 380px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.countdown-component p{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #EAA451;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.countdown-component span{
+    color: rgb(119, 119, 119);
+    font-size: 13px;
+}
+.list-book-flash-sale{
+    display: grid;
+    grid-template-columns: 16% 16% 16% 16% 16% 16%;
+    gap: 10px;
+
+    margin-top: 60px;
+}
+
+.fls-book-custom-img{
+    height:240px ;
+    width: 170px;
+    background-color: rgb(227, 227, 227);
+    border-radius: 5px;
+}
+
+
+.book-item-infor{
+    text-align: center;
+    line-height: 30px;margin-top: 10px;
+}
+
+.book-item-infor .book-type{
+    font-size: 11px;
+    color:  #6C5DD3;
+}
+.num-linethrough{
+    font-size: 14px;
+    text-decoration: line-through;
+    color: rgb(158, 158, 158);
+}
+@media screen and (max-width:1290px) {
+    .list-book-flash-sale{
+        grid-template-columns: auto auto auto;
+        gap: 20px;
+    }
+    .fls-book-custom-img{
+        height: 270px;
+        width: 195px;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width:720px) {
+    .list-book-flash-sale{
+        grid-template-columns: auto auto;
+        gap: 20px;
+    }
+    .fls-book-custom-img{
+        height: 270px;
+        width: 195px;
+        margin: 0 auto;
+    }
+}

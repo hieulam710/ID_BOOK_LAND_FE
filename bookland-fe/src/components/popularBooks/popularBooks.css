@@ -1,0 +1,25 @@
+.popular-books-container{
+
+}
+ .title-popular-n-flashsale {
+    text-align: center;
+    margin: 0 auto;
+    width: 400px;
+}
+ .title-popular-n-flashsale p{
+    font-size: 12px;
+    color: rgb(50, 50, 50);
+    line-height: 20px;
+    margin: 25px 0;
+}
+.custom-img-slide {
+    width: 132px;
+    border-radius: 5px;
+    height: 186px;
+    background-color: rgb(226, 226, 226);
+}
+.slide-popular{
+    display: grid;
+    padding: 40px 0 60px 25px;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+}

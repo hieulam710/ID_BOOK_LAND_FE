@@ -1,0 +1,116 @@
+.recomment-wrapper{
+    margin: 64px 0 ;
+    line-height: 25px;
+}
+.recomment-wrapper h1{
+        font-size: 37px;
+        color: #131045;
+        padding-bottom: 30px;
+}
+.recomment-wrapper .border--1{
+    border: 1px solid rgb(231, 231, 231);
+    border-radius: 5px;
+}
+.rcm-box-flex{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    height: 380px;margin: 30px 0;
+}
+.recomment-wrapper .rcm-left{
+    padding: 52px 40px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.recomment-wrapper .c-img-190-270{
+    width: 190px ;
+    height: 270px;background-color: rgb(227, 227, 227);
+    border-radius: 5px;
+}
+.rcm-left .wid-60-per   {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap :10px;
+}
+.recomment-wrapper p{
+    font-size: 12px;
+    color: #5a5a5a;
+}
+.author{
+    font-size: 13px;
+}
+.recomment-wrapper .rcm-left .price-n-sale{
+    align-items: end;
+}
+.recomment-wrapper .rcm-right{
+    width: 50%;
+    display: flex ;
+    flex-direction: column; gap: 15px
+    ;
+}
+.rcm-right-item{
+    padding: 26px 30px;
+    display: flex; 
+    gap: 20px;
+}
+.rcm-right-item .c-img-90-128{
+    width: 90px;
+    height: 128px;
+    background-color: rgb(227, 227, 227);
+}
+.rcm-right-item p{
+    width: 250px    ;
+    max-height: 70px;
+    overflow: auto;
+}
+.rcm-right-item .price-n-sale{
+    flex-wrap: wrap;
+    margin: 0;
+}.wid-53{
+    width: 53%;
+}
+.wid-23{
+    width: 23%;
+}
+
+@media screen and (max-width:1390px) {
+    .rcm-right-item {
+        padding: 27px 19px;
+    }
+    .recomment-wrapper .rcm-left {
+        padding: 55px 20px
+    }
+    .recomment-wrapper .rcm-right {
+        display: flex;
+        flex-direction: row;
+    }
+    .rcm-right-item {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+    .rcm-right-item .c-img-90-128 {
+        display: none;
+    }
+    .recomment-wrapper .btn-yellow{
+        padding: 10px 20px;
+    }
+}
+@media screen and (max-width:1245px) {
+    .rcm-right-item p {
+        width: 190px;
+    }
+    .recomment-wrapper .btn-yellow{
+        padding: 4px 9px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .itemm---2{
+        display: none;
+    }
+    .recomment-wrapper .rcm-left { 
+        width: 100%;
+    }
+}
