@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.checkoutPage-Container{
+    padding: 10px 50px 10px 100px;
+}
+.slider1{
+    width: 100px;
+  color: aliceblue;
+}
+.slider2,.slider3{
+    width: 150px;
+}
+.sliderInput{
+    display: flex;
+    width: 100%;
+    
+}
+.sliderInput-input2{
+    margin-left: -30px;
+}
+.sliderInput img{
+    width: 35px;
+}
+.sliderInput-input1,.sliderInput-input2{
+    display: flex;
+    width: 23%;
+    gap: 16px;
+}
+.Container-Form-Interact{
+    padding-top: 50px;
+}
+.buyerInfo{
+    font-size: 30px;
+    font-weight: 600;
+}
+.payInfor{
+    font-size: 30px;
+    font-weight: 600;
+}
+.divForm input{
+outline: none;
+border: none;
+border-bottom: 2px solid rgba(128, 128, 128, 0.535) ;
+padding-left: 15px;
+padding-bottom: 10px;
+width: 300px;
+}
+.Container-Form-Interact{
+    display: flex;
+    width: 100%;
+    gap: 5%;
+}
+.imageCard{
+    padding-top: 8%;
+    padding-bottom: 10%;
+}
+.Container-Form-Interact-User{
+    max-width: 45%;
+}
+.cardAndCvv div input{
+    padding-top:20px ;
+}
+.Container-Form-Interact-Card{
+    max-width: 50%;
+}
+.divForm1{
+    display: flex;
+    gap: 5%;
+    padding-top: 5%;
+}
+
+.divForm2Mini2 input{
+    width:630px;
+}
+.divForm3Mini{
+    display: flex;
+    gap: 5%;
+}
+.divForm4Mini input{
+
+    padding-top: 25px;
+    width: 630px;
+}
+.divFormMini11 ,.divFormMini2 ,.divForm2Mini2 ,.divForm4Mini p{
+    padding-bottom: 20px;
+}
+.imageCard img{
+    width: 190px;
+}
+
+.imageCard {
+    display: flex;
+    gap: 3%;
+}
+.textDecoretions{
+    border-top: 1px dashed rgba(0, 0, 0, 0.511);
+}
+
+.divForm2Mini2 input{
+    outline: none;
+border: none;
+border-bottom: 2px solid rgba(128, 128, 128, 0.535) ;
+padding-left: 15px;
+padding-bottom: 10px;
+}
+
+.inputAndImg{
+    display: flex;
+}
+.cardAndCvv {
+    display: flex;
+    width: 100%;
+    gap: 5%;
+}
+.cardThis {
+ width: 60%;
+}
+.cvvThis{
+    width: 35%;
+}
+.cardThis input{
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.535) ;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+.cvvThis input{
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.535) ;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+.imgInput{
+width: 20px;
+height: 20px;
+position: absolute;
+right: 8%;
+}
+.divFormMinii {
+width: 100%;
+border-bottom: 2px solid rgba(128, 128, 128, 0.535) ;
+padding-bottom: 10px;
+}
+.divFormMinii p{
+    padding-bottom: 15px;
+}
+#cars {
+    width: 100%;
+border: 2px solid #fff;
+outline: #fff;
+text-decoration: 2px solid #fff;
+} 
+.monthAndYear{
+    display: flex;
+    width: 100%;
+    padding-bottom: 5%;
+    padding-top:3% ;
+    
+}
+.monthThis{
+    width: 50%;
+
+}
+.yearThis{
+    width: 50%;
+    padding-left: 10%;
+}
+.yearThis input{
+    outline: none;
+    border: none;
+
+}
+.divClickOrder{
+    width: 100%;
+    background-color: rgba(234, 164, 81, 1);
+    color: #fff;
+text-align: center;
+padding: 10px 10px 10px 10px;
+border-radius: 5px;
+}
+.divOptionCaseCheck{
+    display: flex;
+gap: 3%;
+padding: 50px 70px 50px 70px;
+}
+.divOptionCaseCheckMini{
+    text-align:center ;
+}
+.loremCaseCheckMini{
+    width: 267px;
+    font-size: 15px;
+}
