@@ -1,0 +1,139 @@
+@media only screen and (max-width:768px) {
+    .checkoutPage{
+        border: 1px solid black;
+    }
+    .sliderInput {
+        gap: 5%;
+
+    }
+    .imageCard{
+        width: 100%;
+    }
+    .imageCard img{
+        width: 33%;
+    }
+    .divForm2Mini2 input{
+        width: 100%;
+    }
+    .sliderInput-input2 p {
+        padding-right: 10px;
+    }
+
+    .sliderInput img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .Container-Form-Interact {
+        padding-right: 20px;
+
+        .Container-Form-Interact-User {
+            width: 100%;
+        }
+
+        .Container-Form-Interact-User input {
+            max-width: 100px;
+
+        }
+
+        .Container-Form-Interact-Card {
+            width: 100%;
+
+        }
+
+        .imageCard {
+            padding-bottom: 50px;
+
+        }
+        .cardAndCvv{
+            margin-top: 10px;
+        }
+        .monthAndYear{
+            margin-top: 10px;
+        }
+    }
+    .divOptionCaseCheck{
+        display: grid;
+         grid-template-columns: 50% 50%;
+         gap: 15%;
+      margin-left: -109px;
+        //  grid-template-rows: auto auto;
+    }
+  .divOptionCaseCheckMini img{
+
+    width: 45px;
+    height: 45px;
+  }
+}
+
+@media only screen and (max-width:400px) {
+    .checkoutPage {
+        border: 1px solid black;
+    }
+
+    .sliderInput {
+        display: none;
+    }
+
+    .Container-Form-Interact {
+    font-size: 15px;
+        margin-left: -50px;
+        display: block;
+
+        .buyerInfo {
+            width: 250px;
+        }
+    }
+
+    .divForm {
+        width: 400px;
+    
+    }
+    .divForm2Mini2 input{
+
+        max-width: 300px !important;
+    }
+
+    .imageCard{
+        width: 100%;
+      
+    } 
+    .imageCard img{
+            width: 95%;
+
+        }
+        .divForm4Mini input{
+            max-width: 300px !important;
+        }
+        .textDecoretions{
+            width: 300px;
+        }
+        .cardAndCvv{
+            width: 300px;
+        }
+        .monthAndYear{
+            margin-top: 20px;
+            width: 250px;
+        }
+        .divClickOrder{
+            margin-top: 30px;
+            width: 300px;
+        }
+        .divOptionCaseCheck{
+            max-width: 300px;
+            display: grid;
+            grid-template-columns: auto auto;
+         
+          margin-left: -160px;
+        }
+        .divOptionCaseCheckMini p{
+            width: 180px; 
+            font-size: 10px;
+
+        }
+        .divOptionCaseCheckMini img{
+            width: 30px;
+            height: 30px;
+        }
+        
+}
