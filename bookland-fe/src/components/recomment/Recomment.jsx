@@ -9,7 +9,7 @@ function Recomment() {
                     <div className="wid-60-per">
                         <h3>Battle Drive</h3>
                         <span className="author">by Napoleon Sigh</span>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris </p>
+                        <p id="bookDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris </p>
                         <div className="price-n-sale">
                             <h2>$9.5</h2>
                             <span className="light-through-div">$12.0</span>

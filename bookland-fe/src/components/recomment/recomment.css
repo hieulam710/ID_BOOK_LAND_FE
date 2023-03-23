@@ -34,8 +34,9 @@
     flex-direction: column;
     gap :10px;
 }
-.recomment-wrapper p{
+ #bookDescription{
     font-size: 12px;
+    line-height: 18px;
     color: #5a5a5a;
 }
 .author{
@@ -47,8 +48,8 @@
 .recomment-wrapper .rcm-right{
     width: 50%;
     display: flex ;
-    flex-direction: column; gap: 15px
-    ;
+    flex-direction: column;
+    gap: 15px;
 }
 .rcm-right-item{
     padding: 26px 30px;

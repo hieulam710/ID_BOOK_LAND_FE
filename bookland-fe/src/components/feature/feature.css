@@ -1,0 +1,29 @@
+.feature-cpn-wrapper{
+    margin: 120px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.feature-item{
+    text-align: center;
+    
+}
+.feature-item-img{
+    width: 100px;height: 100px;
+    padding: 20px;
+}
+.border-dash{
+    border: 1px dashed #F0BBE3;
+    border-radius: 5px;
+}
+.feature-item span{
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 50px;
+   
+}
+.feature-item p{
+    font-size: 14px;
+    color: rgb(95, 95, 95);
+    font-weight: 400;
+}
