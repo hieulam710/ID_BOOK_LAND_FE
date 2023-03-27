@@ -82,35 +82,35 @@ function BookDetail() {
                     <table>
                         <tr>
                             <td className="dt">Book Title</td>
-                            <td className="dt">Think and Grow Rich</td>
+                            <td className="">Think and Grow Rich</td>
                         </tr>
                         <tr>
                             <td className="dt">Author</td>
-                            <td className="dt">Napoleon Rich</td>
+                            <td className="">Napoleon Rich</td>
                         </tr>
                         <tr>
                             <td className="dt">ISBN</td>
-                            <td className="dt">121341381648 (ISBN13: 121341381648)</td>
+                            <td className="">121341381648 (ISBN13: 121341381648)</td>
                         </tr>
                         <tr>
                             <td className="dt">Ediiton Language</td>
-                            <td className="dt">English</td>
+                            <td className="">English</td>
                         </tr>
                         <tr>
                             <td className="dt">Book Format</td>
-                            <td className="dt">Paperback, 450 Pages</td>
+                            <td className="">Paperback, 450 Pages</td>
                         </tr>
                         <tr>
                             <td className="dt">Date Published</td>
-                            <td className="dt">August 10th 2019</td>
+                            <td className="">August 10th 2019</td>
                         </tr>
                         <tr>
                             <td className="dt">Publisher</td>
-                            <td className="dt">Wepress Inc.</td>
+                            <td className="">Wepress Inc.</td>
                         </tr>
                         <tr>
                             <td className="dt">Tags</td>
-                            <td className="book-types---1 " > <div className="custom-type">Drama</div>
+                            <td className="book-types---1" > <div className="custom-type">Drama</div>
                                 <div className="custom-type">Advanture</div>
                                 <div className="custom-type">Surival</div>
                                 <div className="custom-type">Biography</div>
